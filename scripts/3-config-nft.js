@@ -1,7 +1,7 @@
 import sdk from "./1-initialize-sdk.js";
 import { readFileSync } from "fs";
 
-const editionDrop = sdk.getEditionDrop("0xB440c0aeCAd617E56a3221C88F080C47412fcA77");
+const editionDrop = sdk.getEditionDrop("0xf2337Ac3B7235E0f77e30140B775Ee7781b2DBda");
 
 (async () => {
   try {
@@ -9,7 +9,7 @@ const editionDrop = sdk.getEditionDrop("0xB440c0aeCAd617E56a3221C88F080C47412fcA
       {
         name: "Wristband",
         description: "This wristband NFT will give you access to HouseDAO.",
-        image: readFileSync("script/assets/wristband.jpg"),
+        image: readFileSync("scripts/assets/wristband.jpg"),
       },
     ]);
     console.log("✅ Successfully created a new NFT in the drop!");
