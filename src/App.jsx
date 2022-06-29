@@ -130,7 +130,7 @@ const memberList = useMemo(() => {
   if (hasClaimedNFT) {
     return (
       <div className="member-page">
-        <h1>🍪DAO Member Page</h1>
+        <h1>DAO Member Page</h1>
         <p>Congratulations on being a member</p>
         <div>
           <div>
